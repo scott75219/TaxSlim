@@ -1,0 +1,54 @@
+GILabel{font-weight:bold}
+//GIs{position:absolute;top:50px;left:15px;}
+//FileLabel{position:absolute;top:20px;left:260px;font-weight:bold}
+//InputFile{position:absolute;top:50px;left:260px}
+//Depth{position:absolute;top:80px;left:260px}
+//Duplicates{position:absolute;top:120px;left:260px;text-align: left}
+//Help{position:absolute;top:20px;right:30px;color:grey;text-align: left;}
+//Downloads{font-size:1.0em;color:grey}
+//Slim{position:absolute;top:215px;left:295px}
+//Amount{position:absolute;top:165px;left:260px;text-align: left}
+//Number{position:absolute;}
+
+.Back{
+height:350px;border-style:groove;position: relative;
+list-style-type:none;
+font-size:75%;
+font-weight:lighter;
+margin:0px auto 20px auto;
+padding:5px 5px;
+border:1px solid #CCCCCC;
+width:auto;
+
+}
+.Status{
+height:20px;
+position:relative;
+width:74%;
+//border:dotted red 1px;
+
+}
+
+
+.Headers{
+word-spacing: 15px;
+
+}
+
+.wrapper {
+	position:absolute;
+	top:85%;
+	left:50%;
+	}
+#left {
+    float: left;
+    width: 266px;
+}
+#right {
+    float: right;
+    width: 266px;
+}
+#middle {
+    padding: 0px 266px 0px 266px;
+    margin: 0px;
+}

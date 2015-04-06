@@ -1,0 +1,114 @@
+<html>
+<link rel="stylesheet" type="text/css" href="Objects.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<head>
+	<title>Tax Slim</title>
+	<script type="text/javascript">
+
+	function checkCookie()
+	{
+	var file=getCookie("file");
+	  if(file!=null){
+	  alert("file Name is " + file);
+
+	  }
+	  delete_cookie("file");
+}
+
+var delete_cookie = function(name) {
+    document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+}
+function getCookie(c_name)
+{
+var c_value = document.cookie;
+var c_start = c_value.indexOf(" " + c_name + "=");
+if (c_start == -1)
+  {
+  c_start = c_value.indexOf(c_name + "=");
+  }
+if (c_start == -1)
+  {
+  c_value = null;
+  }
+else
+  {
+  c_start = c_value.indexOf("=", c_start) + 1;
+  var c_end = c_value.indexOf(";", c_start);
+  if (c_end == -1)
+    {
+    c_end = c_value.length;
+    }
+  c_value = unescape(c_value.substring(c_start,c_end));
+  }
+return c_value;
+}
+
+
+</script>
+</script>
+</head>
+<body>
+     <div class="headers" >
+     	<a href="files/TaxSlim.rar" target="_blank">Download</a>
+     	<a href="mailto:scott.goldweber@gmail.com">Contact</a>
+     </div>
+	<div class="Back">
+		<GILabel>Gene Identifiers</GILabel>
+		<FileLabel>Or File</FileLabel>
+
+			<form action="cgi-bin/TaxSlim.pl"   id="form1" name="form1" method="POST" ENCTYPE="multipart/form-data" target="hidden_frame" >
+				<InputFile><input type="file" name="Input" id="FileField" onchange="CheckFileSelected()" onclick="files/Results.php"/></InputFile>
+			<GIs><textarea name="textcontent" id="textc" rows="10" cols="25"/> </textarea></GIs>
+			<Slim><input  type="submit"  id="test" value="submit" /></Slim>
+			<Depth>Depth: <input type="text" name="depth" id="Dpth" style="width:30px"><br></Depth>
+			<div data-role="controlgroup">
+			    <Duplicates>
+			    	<legend>Count and Scan Duplicates?</legend>
+		         	<input type="radio" name="Dup" id="Duplicates" value="N" />
+		         	<label for="radio-choice-1">No</label>
+
+		         	<input type="radio" name="Dup"value="Y" checked="checked" />
+		         	<label for="radio-choice-2">Yes</label>
+			     </<Duplicates>
+			</div>
+			<Help><fieldset data-role="controlgroup">
+				    <legend style="font-weight:bold">Help</legend>
+				    	<ul>
+				    		<li>Enter identifiers, e.g. 2660724 46912264 one on each line</li>
+				    	    <li>Or choose a premade new line deliminated file </li>
+				    	    <li>Choose a depth of at least 2 </li>
+				    	    <li>Choose Yes/No to scan duplicate GIs</li>
+				    	    <li>Choose how many GIs to scan or  choose All </li>
+				    	</ul>
+				    </fieldset></Help>
+				    <Amount><legend>How many GIs to scan?</legend>
+				    <select name="MyDropdown" id="MyDrop" onchange="AskAmount(this.value)" disabled>
+						<option selected value="all">All</option>
+					<option value="number">Type Number</option></Amount>
+					</select>
+					<Number><form><input type="text" name="Size" id="number" style="width:65px;visibility: hidden"><br></form></Number>
+			<span id="msg"></span>
+			</form>
+			<iframe name='hidden_frame' id="hidden_frame" style='display:none' onload="checkCookie()"></iframe>
+
+	</div>
+	</div>
+
+		<h1>
+		<?php echo "It works!"; ?>
+		</h1>
+</body>
+
+</html>
+<script type="text/javascript">
+
+	function AskAmount(type) {
+							if (type=="number") document.getElementById('number').style.visibility='visible';
+							else document.getElementById('number').style.visibility='hidden';
+							}
+
+	function CheckFileSelected(){
+							if(document.getElementById('FileField').value != "") document.getElementById('MyDrop').disabled=false;
+							else document.getElementById('MyDrop').disabled=true;
+							}
+</script>

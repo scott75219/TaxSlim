@@ -1,0 +1,19 @@
+GILabel{position:absolute;top:20px;left:55px;font-weight:bold}
+GIs{position:absolute;top:50px;left:15px;}
+FileLabel{position:absolute;top:20px;left:300px;font-weight:bold}
+InputFile{position:absolute;top:50px;left:295px}
+Depth{position:absolute;top:80px;left:295px}
+Duplicates{position:absolute;top:120px;left:295px}
+OutFolder{position:absolute;top:175px;left:295px}
+Help{position:absolute;top:50px;right:100px;font-size:1.0em;color:grey}
+Slim{position:absolute;top:50px;left:475px}
+Amount{position:absolute;top:165px;left:295px}
+Number{position:absolute;}
+
+.Back{
+background:Lavender;height:250px;border-style:groove;position: relative;
+}
+
+.Headers{
+text-align: right;word-spacing: 15px;
+}

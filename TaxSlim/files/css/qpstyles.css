@@ -1,0 +1,32 @@
+
+.QP_table
+{
+    border: 1px solid; 
+    border-spacing:3px;
+    border-color:#c0c0ff;
+    margin: 0;
+    padding: 0; 
+}
+
+.QP_table td
+{
+    border: 1px dotted; 
+    border-collapse: collapse;
+    border-spacing:0;
+    border-color:#c0c0ff;
+    margin: 0;
+    padding: s0; 
+    font-size:80%;
+}
+
+
+
+.QP_variable
+{
+	font-weight:bold;
+}
+
+.QP_value
+{
+	color:#000040;
+}

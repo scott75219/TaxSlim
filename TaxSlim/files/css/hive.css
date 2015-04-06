@@ -1,0 +1,195 @@
+a 
+{
+	text-decoration:none;
+    color:#4282B1;
+}
+
+a:hover 
+{
+	text-decoration:none; 
+}
+
+
+h2
+{
+	margin:5px 0px 0px 0px;
+	padding:5px auto;
+	border-top:2px solid #4282B1;
+	border-bottom:2px solid #4282B1;
+}
+
+
+body 
+{	
+    
+    font-family:Verdana;
+    margin:0px auto;
+    max-width:100%;
+    min-width:800px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+
+
+.sectHid
+{
+    position:relative;
+    visibility:hidden;
+    display:none;
+}
+
+.sectVis
+{
+    position:relative;
+    visibility:visible;
+    display:inline;
+}
+
+
+
+
+.HIVE_section
+{
+	margin:0px;
+	margin-top:10px;
+	background-color:#dfdfdf;
+    border:1px solid #c0c0ff;
+}
+
+.HIVE_section_title 
+{
+    /*font-size:120%;  */
+    font-weight:bold;  
+}
+
+.HIVE_sect1
+{
+	margin:10px;
+	background-color:#ffffff;
+    border:1px solid #c0c0ff;
+}
+
+
+.HIVE_table 
+{
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    border-color:#c0c0ff;
+    font-family:Verdana;
+    /*font-size:80%;*/
+}
+
+
+.HIVE_variable
+{
+    font-weight:normal;
+    font-style:normal;
+    font-family:Century Gothic;
+    vertical-align: top;
+    border:0px solid #c0c0ff; 
+    
+}
+
+.HIVE_value
+{
+    border:1px solid #c0c0ff; 
+    font-weight:bold;
+    font-family:Verdana;
+}
+
+.HIVE_descr
+{
+    font-weight:lighter;
+    font-family:Verdana;
+    /*font-size: 80%;*/
+    color:#7f7f7f;
+}
+
+.HIVE_seq
+{
+    font-weight:lighter;
+    font-family:Courier;
+    font-size: 70%;
+    color:#7f7f7f;
+}
+
+.HIVE_info
+{
+    font-weight:lighter;
+    font-family:Verdana;
+    /*font-size: 100%;*/
+    color:#000080;
+}
+
+
+
+.DV_tab
+{ 
+    border-collapse: collapse;
+    border-top: 1px solid;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    margin: 0;
+    padding: 0;
+    border-color:#c0c0ff;
+    font-family:Century Gothic;
+    font-size:80%;
+    white-space:nowrap;
+}
+
+.DV_tab_selected
+{
+    border-collapse: collapse;  
+    border-top: 0;
+    border-bottom:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
+    margin: 0;
+    padding: 0; 
+    border-color:#c0c0ff;
+    font-family:Century Gothic;
+    font-size:80%;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+
+.DV_content
+{ 
+    border-collapse: collapse;  
+    border-top: 1px solid;
+    border-bottom: 0;
+    border-left:1px solid;
+    border-right:1px solid;
+    margin: 0px;
+    padding: 10px; 
+    border-color:#c0c0ff;
+    
+}
+
+
+
+
+.DV_table
+{
+    border: 1px solid; 
+    border-spacing:3px;
+    border-color:#c0c0ff;
+    margin: 0;
+    padding: 0; 
+}
+
+.DV_table td
+{
+    border: 1px dotted; 
+    border-collapse: collapse;
+    border-spacing:0;
+    border-color:#c0c0ff;
+    margin: 0;
+    padding: 0; 
+    /*font-size:80%;*/
+}

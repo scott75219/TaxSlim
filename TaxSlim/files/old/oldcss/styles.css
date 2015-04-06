@@ -1,0 +1,221 @@
+body
+	{
+		font-family:"Helvetica";
+		margin:0px;
+		padding:0px;
+		color:#555555;
+	}
+
+#tool-heading, #result-heading
+	{
+		font-size:90%;
+	}
+	
+#tool-parameter-holder, #tool-result-holder
+	{
+		background-color:#FFFFFF;
+    		padding:10px;
+    		margin:10px 0px;
+    		border:1px solid #CCCCCC;
+	}
+	
+#inner-container
+	{
+		
+		background-color:#FFFFFF;
+		margin:10px 0px;
+		border-bottom:1px dotted #CCCCCC;
+		border-top:1px dotted #CCCCCC;
+		padding:10px 0px;
+		font-size:80%;
+	}
+#inner-container2
+	{
+		
+		background-color:#FFFFFF;
+		margin:10px 0px;
+		border-bottom:1px dotted #CCCCCC;
+		border-top:1px dotted #CCCCCC;
+		padding:10px 0px;
+		font-size:80%;
+		overflow: hidden
+	}
+
+#new-inner-container
+	{
+		border:1px solid #CCCCCC;
+		font-size:80%;
+		background-color:#FFFFFF;
+		margin:10px;
+	}
+
+#body_container
+	{
+		max-width:67%;
+		min-width:800px;
+		margin:0px auto;
+	}
+
+#cgiLocation
+	{
+		margin:0px;
+		color:#4282B1;
+	}
+	
+#tool-user-note
+	{
+		margin-top:10px;
+		padding:5px 10px;
+		background-color:#E7F4F6;
+	}
+
+#tool-user-note, #tool-one-liner
+	{
+		font-size:80%;
+	}
+
+#result-download-link
+	{
+		font-size:80%; 
+		color:#4282B1;	
+	}
+	
+#tool-instruction
+	{
+		float:right; 
+		font-size:80%; 
+		color:#4282B1;
+	}
+
+#result-store-table
+	{
+		border-collapse:collapse;
+		font-size:80%;
+		border:1px solid #CCCCCC;
+		padding:3px;
+	}
+	
+#tool-example
+	{
+		font-size:100%; 
+	}
+
+.sectHid
+	{
+		position:relative;
+		visibility:hidden;
+		display:none;
+	}
+
+.sectVis
+	{
+	    	position:relative;
+	    	visibility:visible;
+	    	display:inline
+	}
+	
+a:link, a:visited, a:active
+	{
+		text-decoration:none;
+		color:#4282B1;
+	}
+
+a:hover
+	{
+		text-decoration:underline;
+		color:#4282B1;
+	}
+
+#submission
+	{  
+		font-weight:bolder; 
+		color:#555555;
+	}
+
+p	
+	{
+		margin:10px auto;
+	}
+
+#motif_type
+	{
+		border:0px;
+	}
+
+#variable-value
+	{
+		padding:3px;
+		border:1px solid #CCCCCC;
+	}
+
+.table-heading
+	{
+		background-color:#F4F4F4;
+		width:40%;
+	}
+	
+#result-table
+	{
+		border-collapse:collapse;
+		border:1px solid #CCCCCC;
+		padding:10px;
+	}
+	
+#result-container
+	{
+		font-size:80%;
+	}
+
+#piechart
+	{
+		border-right:1px dotted #CCCCCC;
+	}
+
+#result-display-container
+	{
+		border:1px solid #CCCCCC;
+		padding:10px;
+		margin:10px;
+		background-color:#FFFFFF;
+		font-size:85%;
+	}
+
+.inputEditable
+	{
+		border:1px solid #4282B1;
+	}
+	
+#progress-details
+	{
+		margin:10px 0px;
+		font-size:80%;
+	}
+
+#nglyco-result-table
+	{
+		border-collapse:collapse;
+		border:1px solid #CCCCCC;
+		padding:2px;
+	}
+	
+#result-link
+	{
+		font-size:80%;
+	}
+	
+#title_exp, #title_hits
+	{
+		font-size:80%;
+		font-weight:bolder;
+	}
+
+#graph-holder 
+	{
+		border-collapse:collapse;
+		border:1px solid #CCCCCC;
+	}	
+
+#graph-holder th
+	{
+		font-size:90%;
+	}
